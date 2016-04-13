@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<explain>nong12登录</explain>
+		<url>https://passport.nong12.com</url>
+		<null username="" password="">账户名不能为空</null>
+		<right username="15108398262" password="111111">usertest</right>
+		<user_null username="" password="a123456">账户名不能为空</user_null>
+		<pwd_null username="15108398262" password="">密码不能为空</pwd_null>
+		<error username="15108398262" password="212121">账户名和密码不匹配</error>
+</info>
