@@ -6,7 +6,7 @@ from public import login
 import xml.dom.minidom
 
 #打开xml 文档
-dom = xml.dom.minidom.parse('D:\\test_project\\test_date\\login.xml')
+dom = xml.dom.minidom.parse('D:\\test_project\\test_data\\login.xml')
 #得到文档元素对象
 root = dom.documentElement
 
