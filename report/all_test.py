@@ -20,13 +20,7 @@ def creatsuite():
 
 now = time.strftime("%Y-%m-%d %H_%M_%S")
 filename = 'D:\\test_project\\report\\'+now+'result.html'
-
-#2.7版本
-#fp = file(filename, 'wb')
-
-#3.5版本
-fp = open(filename,'wb')
-
+fp = file(filename, 'wb')
 runner =HTMLTestRunner.HTMLTestRunner(
 stream = fp,
 title = u'登录测试报告',
