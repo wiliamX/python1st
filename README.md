@@ -1,0 +1,4 @@
+# python1st
+python2.7自动化测试实践（基于selenium）
+运行代码时需本地D盘建立test_project目录，将整个工程移入
+需要HTMLTestRunner、unittest及selenium依赖包
